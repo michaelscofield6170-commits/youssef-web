@@ -7,6 +7,20 @@ body {
   /* background-color: rgb(18, 18, 30); */
 }
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
 .overlay {
   background-image: url('photo-1529156069898-49953e39b3ac.jfif');       
   background-repeat: no-repeat;     
