@@ -2,9 +2,9 @@ body {
   padding: 0;
   margin: 0;
   height: 6000.54px;
-  /* width: 1440px; */
   width: 1513px;
   /* background-color: rgb(18, 18, 30); */
+  overflow-x: hidden;
 }
 
 @media (max-width: 768px) {
